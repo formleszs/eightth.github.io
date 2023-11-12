@@ -19,7 +19,7 @@ function change() {
         <input type="checkbox" id="acryl">\n \
         <label for="acryl">С кунаями</label>\n \
         <input type="checkbox" id="base">\n \
-        <label for="base">С повешенной прочностью</label>\n \
+        <label for="base">С повышенной прочностью</label>\n \
         <input type="checkbox" id="powder">\n \
         <label for="powder">Повседневная одежда</label> \
         ';
