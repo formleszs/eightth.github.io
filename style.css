@@ -1,0 +1,289 @@
+* {
+    box-sizing: border-box;
+}
+
+.tg {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+body {
+    background-image: url(1625653809_27-kartinkin-com-p-akatsuki-oboi-krasivie-28.jpg);
+    margin: 0;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+header.navbar.navbar-expand-lg.navbar-dark {
+    order: 3;
+    background-color: #000000;
+    -webkit-box-shadow: 0px 20px 30px 20px #640101a1;
+    -moz-box-shadow: 0px 20px 30px 20px #640101a1;
+    box-shadow: 0px 20px 30px 20px #640101a1;
+}
+
+nav.navbar.navbar-expand-lg.bg-body-orange {
+    background-color: rgba(240, 248, 255, 0);
+}
+
+em {
+    color: white;
+}
+
+div.wrap3.lh-lg.font-monospace {
+    padding: 10px;
+    margin: 300px 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 100px rgb(184, 2, 2);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+
+div.footer-bg-lg {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #000000;
+    background: -webkit-radial-gradient(circle farthest-side at top center, #000000 10%, #000000 100%);
+    background: -moz-radial-gradient(circle farthest-side at top center, #000000 10%, #000000 100%);
+    background: radial-gradient(circle farthest-side at top center, #000000 10%, #000000 100%);
+    color: #ffffff;
+}
+
+div.wrap5.lh-lg.font-monospace {
+    order: 1;
+    padding: 10px;
+    margin: 300px 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 100px rgb(255, 255, 255);
+    background-color: #000000a8;
+}
+
+.slick-slide img {
+    border: 5px solid #fff;
+    display: flex;
+    width: 50%;
+}
+
+div.image {
+    display: inline;
+}
+
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+
+}
+
+button#openFormButton {
+    background-color: #ffffff00;
+    color: #ffffff;
+    border-radius: 10px;
+
+
+}
+
+button.lok {
+    background: #ff0000;
+    color: white;
+}
+
+form#feedbackForm.feedback-form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+    width: 520px;
+    height: 900px;
+}
+
+.feedback-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #9c1010;
+    padding: 20px;
+    border-radius: 5px;
+    background: url(4c6fa7a89f70af4c33f8501bdd76602e.jpg);
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.feedback-form h2 {
+    margin-top: 0;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-group input[type="checkbox"] {
+    display: inline;
+    margin-right: 5px;
+}
+
+.form-group input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+@media screen and (min-width: 415px) {
+    body {
+        background-image: url(1625653809_27-kartinkin-com-p-akatsuki-oboi-krasivie-28.jpg);
+        margin: 0;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+
+    div.footer-bg-lg {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        background: #000000;
+        background: -webkit-radial-gradient(circle farthest-side at top center, #000000 10%, #000000 100%);
+        background: -moz-radial-gradient(circle farthest-side at top center, #000000 10%, #000000 100%);
+        background: radial-gradient(circle farthest-side at top center, #000000 10%, #000000 100%);
+        color: #ffffff;
+    }
+
+
+    div.wrap3.lh-lg.font-monospace {
+        order: 2;
+        padding: 50px;
+        margin: 160px 600px;
+        width: 800px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 100px rgb(184, 2, 2);
+        background-color: #000000;
+    }
+
+    div.wrap5.lh-lg.font-monospace {
+
+        padding: 50px;
+        margin: 100px 600px;
+        width: 800px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 100px rgb(255, 255, 255);
+        background-color: #000000a8;
+    }
+
+    .popup {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 9999;
+
+    }
+
+    button#openFormButton {
+        background-color: #ffffff00;
+        color: #ffffff;
+        border-radius: 10px;
+
+
+    }
+
+    button.lok {
+        background: #ff0000;
+        color: white;
+    }
+
+
+
+    .feedback-form {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #9c1010;
+        padding: 20px;
+        border-radius: 5px;
+        background: url(4c6fa7a89f70af4c33f8501bdd76602e.jpg);
+        color: #ffffff;
+        background-color: #000000;
+    }
+
+    .feedback-form h2 {
+        margin-top: 0;
+    }
+
+    .form-group {
+        margin-bottom: 10px;
+    }
+
+    .form-group label {
+        font-weight: bold;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        width: 100%;
+        padding: 5px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+
+    .form-group input[type="checkbox"] {
+        display: inline;
+        margin-right: 5px;
+    }
+
+    .form-group input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+
+    .form-group input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+}
